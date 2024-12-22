@@ -1,0 +1,680 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Temp\\MD1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\views\\courses\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\controllers\\assignementscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\controllers\\teacherscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\views\\teachers\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\views\\teachers\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SchoolSystem/True/SqlTable/dbo.Student.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\data\\schoolsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\views\\assignements\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\views\\courses\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\views\\courses\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\views\\courses\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\views\\courses\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\controllers\\submissionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\migrations\\schoolsystemcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\migrations\\20241221212558_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\md4.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33A1E37C-CB08-4F4F-BEF1-EB0623E86F48}|..\\MD2\\MD2.csproj|c:\\temp\\md2\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20322CFE-2878-4E62-B9D0-4AF29A7320E3}|MD1.csproj|c:\\temp\\md1\\schoolsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20322CFE-2878-4E62-B9D0-4AF29A7320E3}|MD1.csproj|solutionrelative:schoolsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20322CFE-2878-4E62-B9D0-4AF29A7320E3}|MD1.csproj|c:\\temp\\md1\\schoolsystemcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20322CFE-2878-4E62-B9D0-4AF29A7320E3}|MD1.csproj|solutionrelative:schoolsystemcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\models\\assignement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\models\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\models\\submission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{414D997C-82EB-44B6-AB1E-7509AC37106C}|..\\MD4\\MD4.csproj|c:\\temp\\md4\\models\\date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20322CFE-2878-4E62-B9D0-4AF29A7320E3}|MD1.csproj|c:\\temp\\md1\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20322CFE-2878-4E62-B9D0-4AF29A7320E3}|MD1.csproj|solutionrelative:student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20322CFE-2878-4E62-B9D0-4AF29A7320E3}|MD1.csproj|c:\\temp\\md1\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20322CFE-2878-4E62-B9D0-4AF29A7320E3}|MD1.csproj|solutionrelative:person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20322CFE-2878-4E62-B9D0-4AF29A7320E3}|MD1.csproj|c:\\temp\\md1\\date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20322CFE-2878-4E62-B9D0-4AF29A7320E3}|MD1.csproj|solutionrelative:date.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20322CFE-2878-4E62-B9D0-4AF29A7320E3}|MD1.csproj|c:\\temp\\md1\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20322CFE-2878-4E62-B9D0-4AF29A7320E3}|MD1.csproj|solutionrelative:course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20322CFE-2878-4E62-B9D0-4AF29A7320E3}|MD1.csproj|c:\\temp\\md1\\assignement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20322CFE-2878-4E62-B9D0-4AF29A7320E3}|MD1.csproj|solutionrelative:assignement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20322CFE-2878-4E62-B9D0-4AF29A7320E3}|MD1.csproj|c:\\temp\\md1\\teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20322CFE-2878-4E62-B9D0-4AF29A7320E3}|MD1.csproj|solutionrelative:teacher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20322CFE-2878-4E62-B9D0-4AF29A7320E3}|MD1.csproj|c:\\temp\\md1\\submission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20322CFE-2878-4E62-B9D0-4AF29A7320E3}|MD1.csproj|solutionrelative:submission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssignementsController.cs",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Controllers\\AssignementsController.cs",
+              "RelativeDocumentMoniker": "..\\MD4\\Controllers\\AssignementsController.cs",
+              "ToolTip": "C:\\Temp\\MD4\\Controllers\\AssignementsController.cs",
+              "RelativeToolTip": "..\\MD4\\Controllers\\AssignementsController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwCAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T21:33:06.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "..\\MD4\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Temp\\MD4\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "..\\MD4\\Controllers\\StudentsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T21:36:34.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "..\\MD4\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Temp\\MD4\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "..\\MD4\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T21:34:04.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TeachersController.cs",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Controllers\\TeachersController.cs",
+              "RelativeDocumentMoniker": "..\\MD4\\Controllers\\TeachersController.cs",
+              "ToolTip": "C:\\Temp\\MD4\\Controllers\\TeachersController.cs",
+              "RelativeToolTip": "..\\MD4\\Controllers\\TeachersController.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAgwJ0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T21:35:10.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Views\\Courses\\Create.cshtml",
+              "RelativeDocumentMoniker": "..\\MD4\\Views\\Courses\\Create.cshtml",
+              "ToolTip": "C:\\Temp\\MD4\\Views\\Courses\\Create.cshtml*",
+              "RelativeToolTip": "..\\MD4\\Views\\Courses\\Create.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T21:42:08.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "..\\MD4\\Models\\Course.cs",
+              "ToolTip": "C:\\Temp\\MD4\\Models\\Course.cs",
+              "RelativeToolTip": "..\\MD4\\Models\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T20:57:44.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "..\\MD4\\Models\\Student.cs",
+              "ToolTip": "C:\\Temp\\MD4\\Models\\Student.cs",
+              "RelativeToolTip": "..\\MD4\\Models\\Student.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAUwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T20:57:56.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Views\\Students\\Create.cshtml",
+              "RelativeDocumentMoniker": "..\\MD4\\Views\\Students\\Create.cshtml",
+              "ToolTip": "C:\\Temp\\MD4\\Views\\Students\\Create.cshtml",
+              "RelativeToolTip": "..\\MD4\\Views\\Students\\Create.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAqwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T21:54:23.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "dbo.Student.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SchoolSystem/True/SqlTable/dbo.Student.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/SchoolSystem/True/SqlTable/dbo.Student.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-12-21T22:00:21.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Views\\Students\\Edit.cshtml",
+              "RelativeDocumentMoniker": "..\\MD4\\Views\\Students\\Edit.cshtml",
+              "ToolTip": "C:\\Temp\\MD4\\Views\\Students\\Edit.cshtml",
+              "RelativeToolTip": "..\\MD4\\Views\\Students\\Edit.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwCIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T22:04:18.41Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Views\\Teachers\\Edit.cshtml",
+              "RelativeDocumentMoniker": "..\\MD4\\Views\\Teachers\\Edit.cshtml",
+              "ToolTip": "C:\\Temp\\MD4\\Views\\Teachers\\Edit.cshtml",
+              "RelativeToolTip": "..\\MD4\\Views\\Teachers\\Edit.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T22:08:07.352Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Views\\Teachers\\Create.cshtml",
+              "RelativeDocumentMoniker": "..\\MD4\\Views\\Teachers\\Create.cshtml",
+              "ToolTip": "C:\\Temp\\MD4\\Views\\Teachers\\Create.cshtml",
+              "RelativeToolTip": "..\\MD4\\Views\\Teachers\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T22:07:48.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "..\\MD4\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Temp\\MD4\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "..\\MD4\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T21:52:34.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "..\\MD4\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Temp\\MD4\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "..\\MD4\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T21:52:36.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SchoolSystemContext.cs",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Data\\SchoolSystemContext.cs",
+              "RelativeDocumentMoniker": "..\\MD4\\Data\\SchoolSystemContext.cs",
+              "ToolTip": "C:\\Temp\\MD4\\Data\\SchoolSystemContext.cs",
+              "RelativeToolTip": "..\\MD4\\Data\\SchoolSystemContext.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA7wCsAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T20:59:15.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "..\\MD4\\Models\\Person.cs",
+              "ToolTip": "C:\\Temp\\MD4\\Models\\Person.cs",
+              "RelativeToolTip": "..\\MD4\\Models\\Person.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAiwFUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T20:57:54.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\MD4\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Temp\\MD4\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "..\\MD4\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T21:52:31.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Views\\Assignements\\Create.cshtml",
+              "RelativeDocumentMoniker": "..\\MD4\\Views\\Assignements\\Create.cshtml",
+              "ToolTip": "C:\\Temp\\MD4\\Views\\Assignements\\Create.cshtml",
+              "RelativeToolTip": "..\\MD4\\Views\\Assignements\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T21:51:59.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Views\\Courses\\Delete.cshtml",
+              "RelativeDocumentMoniker": "..\\MD4\\Views\\Courses\\Delete.cshtml",
+              "ToolTip": "C:\\Temp\\MD4\\Views\\Courses\\Delete.cshtml",
+              "RelativeToolTip": "..\\MD4\\Views\\Courses\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T21:42:10.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Views\\Courses\\Details.cshtml",
+              "RelativeDocumentMoniker": "..\\MD4\\Views\\Courses\\Details.cshtml",
+              "ToolTip": "C:\\Temp\\MD4\\Views\\Courses\\Details.cshtml",
+              "RelativeToolTip": "..\\MD4\\Views\\Courses\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T21:42:15.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Views\\Courses\\Edit.cshtml",
+              "RelativeDocumentMoniker": "..\\MD4\\Views\\Courses\\Edit.cshtml",
+              "ToolTip": "C:\\Temp\\MD4\\Views\\Courses\\Edit.cshtml",
+              "RelativeToolTip": "..\\MD4\\Views\\Courses\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T21:42:17.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Views\\Courses\\Index.cshtml",
+              "RelativeDocumentMoniker": "..\\MD4\\Views\\Courses\\Index.cshtml",
+              "ToolTip": "C:\\Temp\\MD4\\Views\\Courses\\Index.cshtml",
+              "RelativeToolTip": "..\\MD4\\Views\\Courses\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T21:42:18.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SubmissionsController.cs",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Controllers\\SubmissionsController.cs",
+              "RelativeDocumentMoniker": "..\\MD4\\Controllers\\SubmissionsController.cs",
+              "ToolTip": "C:\\Temp\\MD4\\Controllers\\SubmissionsController.cs",
+              "RelativeToolTip": "..\\MD4\\Controllers\\SubmissionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T21:36:03.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SchoolSystemContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Migrations\\SchoolSystemContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "..\\MD4\\Migrations\\SchoolSystemContextModelSnapshot.cs",
+              "ToolTip": "C:\\Temp\\MD4\\Migrations\\SchoolSystemContextModelSnapshot.cs",
+              "RelativeToolTip": "..\\MD4\\Migrations\\SchoolSystemContextModelSnapshot.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T21:31:20.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20241221212558_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Migrations\\20241221212558_InitialMigration.cs",
+              "RelativeDocumentMoniker": "..\\MD4\\Migrations\\20241221212558_InitialMigration.cs",
+              "ToolTip": "C:\\Temp\\MD4\\Migrations\\20241221212558_InitialMigration.cs",
+              "RelativeToolTip": "..\\MD4\\Migrations\\20241221212558_InitialMigration.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T21:25:58.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Appsettings.json",
+              "DocumentMoniker": "C:\\Temp\\MD2\\Appsettings.json",
+              "RelativeDocumentMoniker": "..\\MD2\\Appsettings.json",
+              "ToolTip": "C:\\Temp\\MD2\\Appsettings.json",
+              "RelativeToolTip": "..\\MD2\\Appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-21T21:11:44.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Temp\\MD4\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\MD4\\appsettings.json",
+              "ToolTip": "C:\\Temp\\MD4\\appsettings.json",
+              "RelativeToolTip": "..\\MD4\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-21T21:09:58.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Program.cs",
+              "RelativeDocumentMoniker": "..\\MD4\\Program.cs",
+              "ToolTip": "C:\\Temp\\MD4\\Program.cs",
+              "RelativeToolTip": "..\\MD4\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T21:09:56.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MD4.csproj",
+              "DocumentMoniker": "C:\\Temp\\MD4\\MD4.csproj",
+              "RelativeDocumentMoniker": "..\\MD4\\MD4.csproj",
+              "ToolTip": "C:\\Temp\\MD4\\MD4.csproj",
+              "RelativeToolTip": "..\\MD4\\MD4.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-21T21:00:07.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\MD4\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Temp\\MD4\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\MD4\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T21:16:08.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "SchoolSystemContext.cs",
+              "DocumentMoniker": "C:\\Temp\\MD1\\SchoolSystemContext.cs",
+              "RelativeDocumentMoniker": "SchoolSystemContext.cs",
+              "ToolTip": "C:\\Temp\\MD1\\SchoolSystemContext.cs",
+              "RelativeToolTip": "SchoolSystemContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T20:58:38.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SchoolSystemContextFactory.cs",
+              "DocumentMoniker": "C:\\Temp\\MD1\\SchoolSystemContextFactory.cs",
+              "RelativeDocumentMoniker": "SchoolSystemContextFactory.cs",
+              "ToolTip": "C:\\Temp\\MD1\\SchoolSystemContextFactory.cs",
+              "RelativeToolTip": "SchoolSystemContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T20:58:39.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Models\\Teacher.cs",
+              "RelativeDocumentMoniker": "..\\MD4\\Models\\Teacher.cs",
+              "ToolTip": "C:\\Temp\\MD4\\Models\\Teacher.cs",
+              "RelativeToolTip": "..\\MD4\\Models\\Teacher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T20:58:04.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Submission.cs",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Models\\Submission.cs",
+              "RelativeDocumentMoniker": "..\\MD4\\Models\\Submission.cs",
+              "ToolTip": "C:\\Temp\\MD4\\Models\\Submission.cs",
+              "RelativeToolTip": "..\\MD4\\Models\\Submission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T20:57:59.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Date.cs",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Models\\Date.cs",
+              "RelativeDocumentMoniker": "..\\MD4\\Models\\Date.cs",
+              "ToolTip": "C:\\Temp\\MD4\\Models\\Date.cs",
+              "RelativeToolTip": "..\\MD4\\Models\\Date.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T20:57:48.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Assignement.cs",
+              "DocumentMoniker": "C:\\Temp\\MD4\\Models\\Assignement.cs",
+              "RelativeDocumentMoniker": "..\\MD4\\Models\\Assignement.cs",
+              "ToolTip": "C:\\Temp\\MD4\\Models\\Assignement.cs",
+              "RelativeToolTip": "..\\MD4\\Models\\Assignement.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T20:57:33.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Date.cs",
+              "DocumentMoniker": "C:\\Temp\\MD1\\Date.cs",
+              "RelativeDocumentMoniker": "Date.cs",
+              "ToolTip": "C:\\Temp\\MD1\\Date.cs",
+              "RelativeToolTip": "Date.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T20:57:04.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Temp\\MD1\\Course.cs",
+              "RelativeDocumentMoniker": "Course.cs",
+              "ToolTip": "C:\\Temp\\MD1\\Course.cs",
+              "RelativeToolTip": "Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T20:57:04.299Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Temp\\MD1\\Person.cs",
+              "RelativeDocumentMoniker": "Person.cs",
+              "ToolTip": "C:\\Temp\\MD1\\Person.cs",
+              "RelativeToolTip": "Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T20:56:51.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Assignement.cs",
+              "DocumentMoniker": "C:\\Temp\\MD1\\Assignement.cs",
+              "RelativeDocumentMoniker": "Assignement.cs",
+              "ToolTip": "C:\\Temp\\MD1\\Assignement.cs",
+              "RelativeToolTip": "Assignement.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T20:53:55.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Teacher.cs",
+              "DocumentMoniker": "C:\\Temp\\MD1\\Teacher.cs",
+              "RelativeDocumentMoniker": "Teacher.cs",
+              "ToolTip": "C:\\Temp\\MD1\\Teacher.cs",
+              "RelativeToolTip": "Teacher.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBEAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T20:39:52.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Submission.cs",
+              "DocumentMoniker": "C:\\Temp\\MD1\\Submission.cs",
+              "RelativeDocumentMoniker": "Submission.cs",
+              "ToolTip": "C:\\Temp\\MD1\\Submission.cs",
+              "RelativeToolTip": "Submission.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswBUAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T20:38:11.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Temp\\MD1\\Student.cs",
+              "RelativeDocumentMoniker": "Student.cs",
+              "ToolTip": "C:\\Temp\\MD1\\Student.cs",
+              "RelativeToolTip": "Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-09T18:55:57.87Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

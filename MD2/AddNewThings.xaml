@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MD2.AddNewThings"
+             Title="Add a new student/assignment/submission">
+    <ScrollView> <!-- Nodrošina rīkjoslu (1) -->
+        <VerticalStackLayout> <!-- Sakārto visas lapas komponentes vertikāli (1) -->
+            <!-- Nosaukums priekš jauna studenta pievienošanas sadaļas (2) -->
+            <Label 
+                Text="Add a new Student"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <!-- Ievades lauki studenta vārdam, uzvārdam, dzimumam un apliecības numuram (2) (3) -->
+            <Entry x:Name="Name" Placeholder="Enter student name"/>
+            <Entry x:Name="Surname" Placeholder="Enter student surname"/>
+            <Entry x:Name="Gender" Placeholder="Enter student gender (Man or Woman)"/>
+            <Entry x:Name="StudentIDNumber" Placeholder="Enter student ID number"/>
+            <!-- Poga jauna studenta pievienošanai (2) (3) -->
+            <Button x:Name="AddStudent" Clicked="AddStudent_Clicked" Text="Make a new student"/>
+            <!-- Lauks rezultātu atgriešanai pēc jauna studenta pievienošanas (2) (4) -->
+            <Label x:Name="Result"/>
+
+            <!-- Nosaukums priekš jauna uzdevuma pievienošanas sadaļas (2) -->
+            <Label Text="Add a new Assignment" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+            <!-- Izvēle, kura piedāvā kursu izvēli (2) -->
+            <Picker x:Name="CoursePicker" Title="Select a course" />
+            <!-- Ievades lauki uzdevuma aprakstam un iesnieguma termiņam (2) (3) -->
+            <Entry x:Name="AssignmentDescription" Placeholder="Add an assignment description"/>
+            <Entry x:Name="AssignmentDeadline" Placeholder="Add a deadline (DD.MM.YYYY)"/>
+            <!-- Poga jauna uzdevuma pievienošanai (2) (3) -->
+            <Button x:Name="AddAssignment" Clicked="AddAssignment_Clicked" Text="Add a new assignment"/>
+            <!-- Lauks rezultātu atgriešanai pēc jauna uzdevuma pievienošanas (2) (4) -->
+            <Label x:Name="AssignmentResult"/>
+
+            <!-- Nosaukums priekš jauna uzdevuma iesnieguma pievienošanas sadaļas (2) -->
+            <Label Text="Add a new Submission" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+            <!-- Izvēles, kuras piedāvā uzdevuma un studenta izvēli (2) -->
+            <Picker x:Name="AssignmentPicker" Title="Select an assignment" />
+            <Picker x:Name="StudentPicker" Title="Select a student" />
+            <!-- Ievades lauki uzdevuma iesnieguma iesniegšanas laikam un atzīmei (2) (3) -->
+            <Entry x:Name="SubmissionTime" Placeholder="Add a submission Time (DD.MM.YYYY HH:MM)"/>
+            <Entry x:Name="SubmissionScore" Placeholder="Add a score"/>
+            <!-- Poga jauna uzdevuma iesnieguma pievienošanai (2) (3) -->
+            <Button x:Name="AddSubmission" Clicked="AddSubmission_Clicked" Text="Add a new submission"/>
+            <!-- Lauks rezultātu atgriešanai pēc jauna uzdevuma iesnieguma pievienošanas (2) (4) -->
+            <Label x:Name="SubmissionResult"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+    
+<!-- 
+    Atsauces:
+         1. Prezentācija "06_07_MAUI", 24. slaids
+         2. Prezentācija "06_07_MAUI", ".NET MAUI controls" sadaļa
+         3. Sestās lekcijas ieraksts
+         4. ChatGPT ieteikums, lai uzlabotu lietotnes draudzīgumu ar lietotāju
+-->

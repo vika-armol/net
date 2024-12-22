@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MD2.SchoolDataManager"
+             Title="School systems data manager"
+             NavigatedTo="ContentPage_NavigatedTo"> <!-- Jaunie studentu, uzdevumu un uzdevumu iesnieguma dati, rediģētie un dzēstie dati tiek automātiski pievienoti šajā lapā (2) -->
+
+    <ScrollView> <!-- Nodrošina rīkjoslu (1) -->
+        <VerticalStackLayout> <!-- Sakārto visas lapas komponentes vertikāli (1) -->
+            <!-- Pogas datu printēšanai, ielādei, saglabāšanai, izveidei un atiestatīšanai (2) (3) -->
+            <Button x:Name="ButtonPrint" Text="Print data" Clicked="ButtonPrint_Clicked"/>
+            <Button x:Name="ButtonLoad" Text="Load data" Clicked="ButtonLoad_Clicked"/>
+            <Button x:Name="ButtonSave" Text="Save data" Clicked="ButtonSave_Clicked"/>
+            <Button x:Name="ButtonCreate" Text="Create test data" Clicked="ButtonCreate_Clicked"/>
+            <Button x:Name="ButtonReset" Text="Reset data" Clicked="ButtonReset_Clicked"/>
+            <!-- Lauks, lai parādītu, ka dati tika ielādēti, saglabāti, utt.. (3) (5) -->
+            <Label 
+                x:Name="SchoolSystemDataManager"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+    
+<!-- 
+    Atsauces:
+         1. Prezentācija "06_07_MAUI", 24. slaids
+         2. Septītās lekcijas ieraksts
+         3. Prezentācija "06_07_MAUI", ".NET MAUI controls" sadaļa
+         4. Sestās lekcijas ieraksts
+         5. ChatGPT ieteikums, lai uzlabotu lietotnes draudzīgumu ar lietotāju
+-->

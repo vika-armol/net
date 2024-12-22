@@ -1,0 +1,17 @@
+School System Overview:
+School System has 2 teacher/s, 2 student/s, 2 course/s, 2 assignement/s and 2 submission/s
+Teachers:
+Name: Jānis, Surname: Dumbergs, Full Name: Jānis Dumbergs, Gender: Man, Contract Date: 01.05.2023
+Name: Kate, Surname: Sveķe, Full Name: Kate Sveķe, Gender: Woman, Contract Date: 14.06.2014
+Students:
+Name: Alise, Surname: Johansone, Full Name: Alise Johansone, Gender: Woman, Student ID Number: aj23056
+Name: Bruno, Surname: Erkšķis, Full Name: Bruno Erkšķis, Gender: Man, Student ID Number: be21033
+Courses:
+Course Name: Matemātika, Teacher: Name: Jānis, Surname: Dumbergs, Full Name: Jānis Dumbergs, Gender: Man, Contract Date: 01.05.2023
+Course Name: Fizika, Teacher: Name: Kate, Surname: Sveķe, Full Name: Kate Sveķe, Gender: Woman, Contract Date: 14.06.2014
+Assignments:
+Deadline: 10.10.2024, Course Name: Matemātika, Description: Algebras Mājasdarbs
+Deadline: 13.11.2023, Course Name: Fizika, Description: Fizikas Patstāvīgais Projekts
+Submissions:
+Submission for: Algebras Mājasdarbs by Alise Johansone, Score: 85
+Submission for: Fizikas Patstāvīgais Projekts by Bruno Erkšķis, Score: 90

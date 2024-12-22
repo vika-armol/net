@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MD2.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MD2"
+    Title="MD2">
+
+    <TabBar>
+        <!-- Galvenā lapa "Home" (1) -->
+    <ShellContent
+        Title="Home"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+    <!-- Lapa "School systems data manager" (1) -->
+        <ShellContent
+    Title="School systems data manager"
+    ContentTemplate="{DataTemplate local:SchoolDataManager}"
+    Route="SchoolDataManager" />
+
+        <!-- Lapa "Add a new student/assignment/submission" (1) -->
+        <ShellContent
+Title="Add a new student/assignment/submission"
+ContentTemplate="{DataTemplate local:AddNewThings}"
+Route="AddNewThings" />
+
+        <!-- Lapa "Remove or edit an assignment/submission" (1) -->
+        <ShellContent
+    Title="Remove or edit an assignment/submission"
+    ContentTemplate="{DataTemplate local:RemoveOrEdit}"
+    Route="RemoveOrEdit" />
+    </TabBar>
+</Shell>
+
+<!--
+Atsauces:
+    1. Sestās lekcijas ieraksts
+-->

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MD2.RemoveOrEdit"
+             Title="Remove or edit an assignment/submission">
+    <ScrollView> <!-- Nodrošina rīkjoslu (1) -->
+        <VerticalStackLayout> <!-- Sakārto visas lapas komponentes vertikāli (1) -->
+            <!-- Nosaukums priekš uzdevuma sadaļas (2) -->
+            <Label
+                Text="Select an Assignment" 
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <!-- Izvēle, kura piedāvā uzdevumu aprakstu izvēli (2) -->
+            <Picker x:Name="AssignmentPicker" Title="Select an assignment" SelectedIndexChanged="OnAssignmentPickerSelectedIndexChanged" />
+            <Label Text="Assignment Deadline:" />
+            <!-- Ievades lauks uzdevuma iesniegšanas termiņam (2) (3) -->
+            <Entry x:Name="AssignmentDeadlineEntry" Placeholder="Deadline (DD.MM.YYYY)" IsEnabled="False" />
+            <!-- Pogas uzdevuma rediģēšanai un izdzēšanai (2) (3) -->
+            <Button x:Name="EditAssignmentButton" Clicked="OnEditAssignmentButtonClicked" Text="Edit Assignment" IsEnabled="False" /> <!-- Rediģēt var tikai iesniegšanas termiņu, jo man likās, ka nebūtu loģiski, ka lietotājam būtu iespēja labot uzdevuma aprakstu (Jo parasti uzdevuma apraksti, pēc manas pieredzes, nekad netika mainīti) un kursu, kam šis uzdevums pieder. -->
+            <Button x:Name="DeleteAssignmentButton" Clicked="OnDeleteAssignmentButtonClicked" Text="Delete Assignment" IsEnabled="False" />
+            <!-- Lauks rezultātu atgriešanai pēc uzdevuma rediģēšanas vai dzēšanas (2) (4) -->
+            <Label x:Name="AssignmentResultLabel" HorizontalOptions="Center" />
+
+            <!-- Nosaukums priekš uzdevuma iesniegumu sadaļas (2) -->
+            <Label Text="Select a Submission" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+            <!-- Izvēle, kura piedāvā uzdevumu aprakstu kopā ar šī uzdevuma autoru jeb studentu izvēli (2) -->
+            <Picker x:Name="SubmissionPicker" Title="Select a submission" SelectedIndexChanged="OnSubmissionPickerSelectedIndexChanged" />
+            <!-- Izvēlnes, kas piedāvā samainīt uzdevuma aprakstu un/vai uzdevuma autoru (2) -->
+            <Picker x:Name="StudentPicker" Title="Change Student" SelectedIndexChanged="OnStudentPickerSelectedIndexChanged" />
+            <Picker x:Name="AssignmentChangePicker" Title="Change Assignment" SelectedIndexChanged="OnAssignmentChangePickerSelectedIndexChanged" />
+            <Label Text="Submission Score:" />
+            <!-- Ievades lauks uzdevuma vērtējumam(2) (3) -->
+            <Entry x:Name="SubmissionScoreEntry" Placeholder="Score" Keyboard="Numeric" IsEnabled="False" />
+            <!-- Pogas uzdevuma iesniegumu rediģēšanai un izdzēšanai (2) (3) -->
+            <Button x:Name="EditSubmissionButton" Clicked="OnEditSubmissionButtonClicked" Text="Edit Submission" IsEnabled="False" /> <!-- Rediģēt var tikai uzdevuma vērtējumu, jo man likās, ka nebūtu loģiski, ja lietotājam būs iespējams labot studenta pilno vārdu, uzdevuma aprakstu un iesniegšanas datumu. -->
+            <Button x:Name="DeleteSubmissionButton" Clicked="OnDeleteSubmissionButtonClicked" Text="Delete Submission" IsEnabled="False" />
+            <!-- Lauks rezultātu atgriešanai pēc uzdevuma iesniegumu rediģēšanas vai dzēšanas (2) (4) -->
+            <Label x:Name="SubmissionResultLabel" HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
+
+<!-- 
+    Atsauces:
+         1. Prezentācija "06_07_MAUI", 24. slaids
+         2. Prezentācija "06_07_MAUI", ".NET MAUI controls" sadaļa
+         3. Sestās lekcijas ieraksts
+         4. ChatGPT ieteikums, lai uzlabotu lietotnes draudzīgumu ar lietotāju
+-->
